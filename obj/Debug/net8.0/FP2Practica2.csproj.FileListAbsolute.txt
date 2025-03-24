@@ -1,0 +1,14 @@
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\bin\Debug\net8.0\FP2Practica2.exe
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\bin\Debug\net8.0\FP2Practica2.deps.json
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\bin\Debug\net8.0\FP2Practica2.runtimeconfig.json
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\bin\Debug\net8.0\FP2Practica2.dll
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\bin\Debug\net8.0\FP2Practica2.pdb
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\FP2Practica2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\FP2Practica2.AssemblyInfoInputs.cache
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\FP2Practica2.AssemblyInfo.cs
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\FP2Practica2.csproj.CoreCompileInputs.cache
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\FP2Practica2.dll
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\refint\FP2Practica2.dll
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\FP2Practica2.pdb
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\FP2Practica2.genruntimeconfig.cache
+C:\Users\Andres UCM\Desktop\FP2\FP2Practica2\obj\Debug\net8.0\ref\FP2Practica2.dll
