@@ -40,13 +40,11 @@ namespace Conecta4
         // FAse 2
 
         /// <summary>
-        /// True si columna ∈ [0..6] y la casilla superior (y=5) está VACIA.
+        /// True si la casilla superior (y=5) está VACIA.
         /// </summary>
-        public bool PuedePoner(Tablero tablero, int columna)
+        public bool PuedePoner(Tablero t, int columna)
         {
-            if (columna < 0 || columna > 6)
-                return false;
-            return tablero.GetCasilla(columna, 5) == TipoCasilla.VACIA;
+            return t.GetCasilla(columna, 5) == TipoCasilla.VACIA;
         }
 
         /// <summary>
@@ -54,21 +52,17 @@ namespace Conecta4
         /// empezando en (x,y) y avanzando en (dx,dy).
         /// Si arranca en VACIA → devuelve 0.
         /// </summary>
-        public int CuantasSeguidas(Tablero tablero, int x, int y, int dx, int dy)
+        public int CuantasSeguidas(Tablero tab, int ox, int oy, int incrx, int incry)
         {
-            var color = tablero.GetCasilla(x, y);
-            if (color == TipoCasilla.VACIA)
-                return 0;
+            TipoCasilla expected = tab.GetCasilla(ox, oy);
+            int ret = 1;
 
-            int cuenta = 0;
-            while (x >= 0 && x < 7 && y >= 0 && y < 6
-                   && tablero.GetCasilla(x, y) == color)
-            {
-                cuenta++;
-                x += dx;
-                y += dy;
+            while (tab.GetCasilla(ox + incrx, oy + incry) == expected) {
+                ox += incrx;
+                oy += incry;
+                ++ret;
             }
-            return cuenta;
+            return ret;
         }
     }
 }
